@@ -186,20 +186,20 @@
 //         }
 // }
 
-// let a=[11,2,3,4,5,6,77,8,9,10,45,25,4,5,57,5,7,55,7,65]
-// for (let i = 0; i < a.length; i++) {
+let a=[11,2,3,4,5,6,77,8,9,10,45,25,4,5,57,5,7,55,7,65]
+for (let i = 0; i < a.length; i++) {
 
-//     for (let j = i + 1; j < a.length; j++) {
+    for (let j = i + 1; j < a.length; j++) {
 
-//         if (a[i] > a[j]) {
-//             let temp = a[i];
-//             a[i] = a[j];
-//             a[j] = temp;
-//         }
+        if (a[i] > a[j]) {
+            let temp = a[i];
+            a[i] = a[j];
+            a[j] = temp;
+        }
 
-//     }
-// }
-// console.log(a)
+    }
+}
+console.log(a)
 
 
 //inbuilt method 
@@ -209,3 +209,5 @@ let a=[11,2,3,4,5,6,77,8,9,10,45,25,4,5,57,5,7,55,7,65]
 a.sort((x, y) => y - x);
 
 console.log(a);
+
+// testing if I could upload this into repository 
