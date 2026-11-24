@@ -216,4 +216,4 @@ let a="Hello"
 console.log(a)
 //making changes again 2
 
-//making changes in main
+//making changes for conflict 
